@@ -1,0 +1,21 @@
+**Brief Explanation:**
+
+1. **Data Structure**:
+   - `Student`: Stores NIM, name, score, and result (pass/fail) of each student.
+   - `Queue`: Uses an array of `Student` structs with a maximum size of `MAX`, along with `front` and `rear` indices to indicate the front and rear of the queue.
+
+2. **Main Functions and Procedures**:
+   - `initializeQueue`: Initializes the queue by setting `front` and `rear` to `-1`.
+   - `isFull` and `isEmpty`: Checks if the queue is full or empty.
+   - `enqueue`: Adds a student to the queue.
+   - `dequeue`: Removes a student from the front of the queue.
+   - `display`: Prints all students in the queue along with their details.
+
+3. **Main Menu**:
+   - The main program runs in a `do-while` loop allowing users to select options:
+     - **Option 1**: Enqueues a new student into the queue, calculating their result (pass/fail) based on their score.
+     - **Option 2**: Dequeues a student from the queue.
+     - **Option 3**: Displays all students currently in the queue along with their details.
+     - **Option 4**: Exits the program.
+
+This program enables users to manage a queue of students with basic operations like enqueue, dequeue, and displaying the queue contents, adhering to the specified requirements.
